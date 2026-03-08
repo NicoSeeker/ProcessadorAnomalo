@@ -1,0 +1,20 @@
+VAR byte1 = 0x7c
+VAR byte2 = 0x19
+
+VAR byte3 = 0x1b
+VAR byte4 = 0x20
+
+VAR resultado1
+VAR resultado2
+
+LDA $byte1
+ADD $byte3
+
+STA #resultado1
+
+LDA $byte2
+ADD $byte4
+
+STA #resultado2
+
+BRK 0

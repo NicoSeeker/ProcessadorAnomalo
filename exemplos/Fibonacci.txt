@@ -1,0 +1,27 @@
+VAR Num1      
+VAR Indice
+
+INC A        // incrementa A e Y para o começo da sequência
+INC Y       
+STA #Num1  
+  
+LDX #33     // carrega X como um ponteiro para o endereço 0x21 
+STY #32
+STY #33     // carrega os valores iniciais na memoria
+
+LOOP:
+
+INC X
+STX #Indice
+
+ADD Y
+STA #Num1
+LDA Y
+LDY $Num1
+
+STY $Indice
+
+BVC #LOOP
+
+NOP 0
+BRK 0

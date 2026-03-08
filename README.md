@@ -6,7 +6,9 @@
 
 # "Compilação"
 
-	Para Compilar um arquivo de texto para o arquivo executável do programa use o .\PrecessadorAnomalo nome_do_arquivo.txt "lembrando que esse arquivo tem que estar na pasta exemplos do projeto". Uma vez compilado o arquivo vai gerar um .bct (basic compiled text) que pode ser executado sem a necessidade de recompilação, usando o .\PrecessadorAnomalo nome_do_arquivo.btc.
+		Para Compilar um arquivo de texto para o arquivo executável do programa use o .\PrecessadorAnomalo nome_do_arquivo.txt 
+	"lembrando que esse arquivo tem que estar na pasta exemplos do projeto". Uma vez compilado o arquivo vai gerar um .bct 
+	(basic compiled text) que pode ser executado sem a necessidade de recompilação, usando o .\PrecessadorAnomalo nome_do_arquivo.btc.
 	caso não for dado um argumento de entrada, o programa vai compilar/executar o arquivo ASM_de_pobre.txt na raiz do projeto.
 
 # Limitações & funções 
@@ -30,7 +32,8 @@
 
 # Mnemônico e operadores
 
-	Todos os Mnemônico precisão ter um operador, mesmo que seja instruções com BRK ou CLC (que normalmente não precisão ter um operador)
+	Todos os Mnemônico precisão ter um operador, mesmo que seja instruções com BRK ou CLC 
+	(que normalmente não precisão ter um operador)
 
 	'0' // vazio
 	'A' // Relativo ao acumulador

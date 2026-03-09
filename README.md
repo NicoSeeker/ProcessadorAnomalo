@@ -2,14 +2,16 @@
 
 	Projeto criado apenas para estudo, embora funcional está repleto de bugs. Não tenho muito conhecimento na programação.
 
-	O "PrecessadorAnomalo" é um processador/interpretador && compilador baseado no 6502, ele é capaz de "compilar" um assembly em um código que posteriormente é processado.
+	O "PrecessadorAnomalo" é um processador/interpretador && compilador baseado no 6502, ele é capaz de "compilar"
+	um assembly em um código que posteriormente é processado.
 
 # "Compilação"
 
 		Para Compilar um arquivo de texto para o arquivo executável do programa use o .\PrecessadorAnomalo nome_do_arquivo.txt 
-	"lembrando que esse arquivo tem que estar na pasta exemplos do projeto". Uma vez compilado o arquivo vai gerar um .bct 
-	(basic compiled text) que pode ser executado sem a necessidade de recompilação, usando o .\PrecessadorAnomalo nome_do_arquivo.btc.
-	caso não for dado um argumento de entrada, o programa vai compilar/executar o arquivo ASM_de_pobre.txt na raiz do projeto.
+	"lembrando que esse arquivo tem que estar na pasta exemplos do projeto".
+		Uma vez compilado o arquivo vai gerar um .bct (basic compiled text) que pode ser executado sem a necessidade de recompilação
+    usando o .\PrecessadorAnomalo nome_do_arquivo.btc.
+	Caso não for dado um argumento de entrada, o programa vai compilar/executar o arquivo ASM_de_pobre.txt na raiz do projeto.
 
 # Limitações & funções 
 

@@ -18,3 +18,4 @@ ADD $byte4
 STA #resultado2
 
 BRK 0
+NOP 0

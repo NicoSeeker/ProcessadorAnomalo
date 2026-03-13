@@ -10,7 +10,7 @@
 		Para Compilar um arquivo de texto para o arquivo executável do programa use o .\PrecessadorAnomalo nome_do_arquivo.txt 
 	"lembrando que esse arquivo tem que estar na pasta exemplos do projeto".
 		Uma vez compilado o arquivo vai gerar um .bct (basic compiled text) que pode ser executado sem a necessidade de recompilação
-    usando o .\PrecessadorAnomalo nome_do_arquivo.btc.
+    usando o .\PrecessadorAnomalo nome_do_arquivo.btc
 	Caso não for dado um argumento de entrada, o programa vai compilar/executar o arquivo ASM_de_pobre.txt na raiz do projeto.
 
 # Limitações & funções 

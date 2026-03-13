@@ -103,6 +103,7 @@ namespace PrecessadorAnomalo
                 if ((sub && (b2 > b1) && (FG & 1) == 0) || ((sub && (b1 > b2) && (FG & 1) != 1))) FG ^= 1;    // seta o carryBit se b2 < b1;
                 if (((b1 ^ b2) & (b1 ^ temp) & 0x80) != 0) FG ^= 0x40;                                        // seta o Overflow  FG ^= 0b01000000
 
+
                 return (byte)(temp & 0xFF);
             }
 
@@ -128,7 +129,7 @@ namespace PrecessadorAnomalo
                 TEMP = LEFT ? (TEMP << 1) : (TEMP >> 1);
 
                 bool IsOverFlow = ((TEMP & 0xFF0000) != 0) || ((TEMP & 0xFF) != 0);
-                SetFlagNZ((byte)((Valor & 0XFF00) >> 8));
+                SetFlagNZ((byte)((TEMP & 0XFF00) >> 8));
 
                 if (IsOverFlow && ((FG & 0x40) != 0x40) || (!IsOverFlow && ((FG & 0x40) == 0x40))) FG ^= 0x40;
 

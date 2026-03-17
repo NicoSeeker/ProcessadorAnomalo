@@ -14,7 +14,7 @@ Uma vez compilado o arquivo vai gerar um .bct (basic compiled text) que pode ser
 usando o .\PrecessadorAnomalo <nome_do_arquivo.btc>
 Caso não for dado um argumento de entrada, o programa vai compilar/executar o arquivo ASM_de_pobre.txt na raiz do projeto.
 
-### Limitações & funções 
+## Limitações & funções 
 
 Os programas não podem ter mais de 256 bytes, já que é usado somente um byte para o endereçamento;
 Não existe a stack;
@@ -33,7 +33,7 @@ JMP #LOOP        // Jump para o endereço da label
 
 Tudo depois de "//" é ignorado pelo compilador
 
-#### Mnemônico e operadores
+## Mnemônico e operadores
 
 Todos os Mnemônico precisão ter um operador, mesmo que seja instruções com BRK ou CLC 
 (que normalmente não precisão ter um operador)
